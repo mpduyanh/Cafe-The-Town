@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.navbar{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-left a {
+    position: relative;
+    top: 0px;
+    left: 26px;
+    margin-right: 20px;
+}
+
+.navbar-right div{
+    text-transform: uppercase;
+    font-weight: 600;    
+    font-size: 20px;
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right >*{
+    padding: 26px;
+}
+
+.navbar-right :hover{
+    color: darkgreen;
+}
+
+.punchline{
+    margin: auto;
+    width: 50%;
+    padding: 0px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.owner img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.containers {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.locations img {
+    max-width: 97%;
+    object-fit: contain;
+    height: 100%;
+    border: 5px solid #000;
+}
+
+.locations {
+    display: flex;
+}
+.product-title,
+.our_locations{
+    margin: auto;
+    width: 50%;
+    padding: 0px;
+    text-align: center;
+    font-size: 40px;
+}
+.location-right,
+.location-left{
+    max-width: 50%;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    align-content: stretch;
+    flex-direction: column;
+}
+
+.location-title {
+    width: 100%;
+    text-align: center;
+}
+
+.location-description {
+    text-align: center;
+    padding: 30px 150px 30px 150px;
+    font-size: 20px;
+}
+
+.location-container {
+    margin: 40px 0px 40px 0px;
+    display: flex;
+}
+
+.product-pictures{
+    display: flex;
+    justify-content: center;
+}
+
+.product-pictures img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+}
+
+.product-pictures {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .punch-line-overlay {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    font-size: 65px;
+    transform: translate(-50%, -50%);
+  }
+  .discover-button {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #1d6d36;
+    color: white;
+    font-size: 30px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .discover-button:hover {
+    background-color: black;
+  }
